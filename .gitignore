@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+
+.vscode/
+venv/
+.venv/
+env/
+
+# Generated analysis outputs
+Contract_Risk_Report.pdf
+contract_risk_analysis.csv
+final_verified_evidence.csv
+final_clause_candidates.csv
+evidence_validated_sections.csv
+validated_contract_sections.csv
+classified_contract_sections.csv
+contract_sections.csv
+contract_text.txt
+
+# Private / training data
+Exhibit.pdf
+master_clauses.csv
+
+# Local database
+chroma_db/
+
+# Large model weights
+contract_roberta_model/model.safetensors
